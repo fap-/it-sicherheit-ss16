@@ -1,0 +1,17 @@
+input type="hidden" name="soid" value="">
+<input type="hidden" name="wcid" value="">
+<input type="hidden" name="from" value="premail">
+<input type="hidden" name="action" value="ModifyConfirmSend">
+<input type="hidden" name="allbox">
+<tr>
+<td style="padding:5" bgcolor=#A0C6E5   nowrap width="100%">
+<img src="http://64.4.48.24/i.p.send.gif">
+Your message has been sent to:
+</td>
+<td bgcolor=#A0C6E5 align=center style="width:60px;">
+Save<br>Address:
+</td>
+</tr>
+<style>
+.TName	{border-bottom:1px solid #DBEAF5;padding:4px;}
+.TStat	{bord

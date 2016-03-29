@@ -1,0 +1,3 @@
+.p.search.gif" border=0 align=absmiddle hspace=1 alt="Find Message"> Find</td>
+<td class="LL">|</td>
+<td id="PutInFTD" class="P" nowrap onmouseover="MME(event, PutInFldr);" onmouseout="MME(event, PutInFldr);" onblur="MME(event, PutInFldr);" onclick="MCH(event,PutInFldr)"><img src="http://65.54.244.24/i.p.putinfolder.gif" border=0 align=absmiddle hspace=1 alt="Put In Folder"> Put in Folder <img src="h

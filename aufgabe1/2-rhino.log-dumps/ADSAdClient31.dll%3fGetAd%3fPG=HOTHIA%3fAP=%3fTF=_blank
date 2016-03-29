@@ -1,0 +1,7 @@
+
+
+//<![CDATA[
+function g_OTPhasCookie(name){var bHasCookie=false,sCookie=document.cookie,aCookie=sCookie.split(";");for(var i=0;i<aCookie.length;i++){while(aCookie[i].substr(0, 1)==' '){aCookie[i]=aCookie[i].substr(1);}if(aCookie[i].indexOf(name+'=')==0){bHasCookie=true;break;}}return bHasCookie;}
+if(g_OTPhasCookie('OTPFRQ')){var expiredate = new Date();expiredate.setHours(expiredate.getHours() - 1);document.cookie="OTPFRQ=1; path=/; expires="+expiredate.toGMTString();}
+
+//]]>

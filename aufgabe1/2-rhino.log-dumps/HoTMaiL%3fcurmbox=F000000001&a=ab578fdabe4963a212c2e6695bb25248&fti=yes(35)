@@ -1,0 +1,15 @@
+rc="http://65.54.244.24/i.p.new.gif" width=14 height=11 hspace=5 border=0 alt="New Mail"></a>
+</td>			
+<td width=25 height=24 align=center  >
+<a href="javascript:HM('sort=Attachment')">
+<img src="http://65.54.244.24/i.p.attach.gif" border=0 alt="Attached File"></a>
+</td>
+<td width=25>
+<input name="allbox" type="checkbox" onClick="CA();" title="Select or de-select all messages" tabindex="105">
+</td>
+<td width=1>&nbsp;</td>
+<td width="60"   nowrap>
+<a href="javascript:HM('sort=From')" class="FF">From</a>
+</td>
+<td width=100  >
+<a hr

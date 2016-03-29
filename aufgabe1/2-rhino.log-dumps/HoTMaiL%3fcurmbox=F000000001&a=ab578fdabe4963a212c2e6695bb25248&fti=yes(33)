@@ -1,0 +1,11 @@
+alue="">
+<input type="hidden" name="tobox" value="">
+<input type="hidden" name="ReportLevel" value="">
+<table border=0 cellpadding=0 cellspacing=0 width=100% style="PADDING-LEFT:7px;PADDING-RIGHT:7px;PADDING-TOP:2px;PADDING-BOTTOM:2px;">
+<tr align=right>
+<td height=20 nowrap>
+<font class="CC">Show me mail from: </font>
+<select name="SMMF" onChange="window.location.href='/cgi-bin/HoTMaiL?'+_UM+'&SMMF='+this[this.selectedIndex].value;">
+<option value="0" selected>Everyone
+<option value="1" >People I Know
+<option value="2" >Unknown S

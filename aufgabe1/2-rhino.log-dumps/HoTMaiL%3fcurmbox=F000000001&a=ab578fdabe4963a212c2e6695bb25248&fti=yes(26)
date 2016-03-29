@@ -1,0 +1,9 @@
+oveTo',0,1,'F000000003');">Drafts</TD></TR>
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="PI('MoveTo',0,1,'F000000004');">Trash Can</TD></TR>
+<TR><TD class="V"><img src="http://65.54.244.24/spacer.gif" height=1 width=1></TD></TR>
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="PI('MoveTo',0,1,'CreateFolder');">New Folder</TD></TR>
+</table>
+<script language="javascript" >
+var PutInFldr = new MenuObj("PutInFldr", "FldrTable", "PutInFTD", "", "T", "P", "Q","Hfrm","");
+</script>
+<table id="Jun

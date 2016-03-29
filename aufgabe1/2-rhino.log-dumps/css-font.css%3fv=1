@@ -1,0 +1,15 @@
+body,div,span,p,ul,li,td,th,input,select,textarea,button {font-family: Tahoma, sans-serif; }
+.cm td, .cm td a, .nip a, .alr a, .hd, .nip .hilite{font-family: Arial;}
+td, th{font-size: 75%;}
+.qlink, .txt, .txtad a, .promo a, .bt td a{font-size: 95%;}
+h5 {font-weight: bold; font-size: 0.9em; }
+.terms .ct, .termsattr .ct {font-size: 80%; }
+.right {text-align: right; }
+.sfl {white-space: nowrap; }
+.second {font-size: 75%;}
+.date a, .rf, .shop .il a {font-size: 75%; font-family: Verdana, sans-serif;}
+.srch, .bt td a, .txt .txtad, .promo a, .bbsw {font-family: Tahoma;}
+.help {font-size: 12px;}
+.nip .dk{font-size: 90%; font-family: Verdana, sans-serif;}
+h4 {font-size: 1.0em}
+.sm, .ql .md, .ql .md a{font-size: 75%; font-family: Verdana, sans-serif;}

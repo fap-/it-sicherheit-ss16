@@ -1,0 +1,3 @@
+ class="Y" onmouseover="MOD_D()" onmouseout="MUD_D()" onclick="G('/cgi-bin/dasp/calendarupsell.asp?');"><img src="http://65.54.244.24/i.p.cal.note.d.gif" border=0 align=absmiddle hspace=1 alt="Note"> Note</TD></TR>
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="G('/cgi-bin/doaddresses?_HMaction=Create');"><img src="http://65.54.244.24/i.p.cont.individual.gif" border=0 align=absmiddle hspace=1 alt="Contact"> Contact</TD></TR>
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="G('/cgi-bin/doaddresses?_HMaction=GCreate');"><img src="http://65.54.244.24/i.p.cont.group.gif" border=0 align=absmiddle hspace=1 alt="Group"> Group</T

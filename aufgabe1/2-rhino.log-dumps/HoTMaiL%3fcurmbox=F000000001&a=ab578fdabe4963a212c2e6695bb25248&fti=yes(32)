@@ -1,0 +1,13 @@
+sh Can</a></td></tr>
+<tr><td><a href="javascript:G('/cgi-bin/folders?')">Manage Folders</a></td></tr>
+</table>
+<img src="http://65.54.244.24/spacer.gif" height=1 width=115>
+</td>
+<td valign=top width=100%>
+<form name="hotmail" method="post" action="/cgi-bin/HoTMaiL" style="margin-bottom:0px;margin-top:0px;">
+<input type="hidden" name="curmbox" value="F000000001">
+<input type="hidden" name="HrsTest" value="">
+
+<input type="hidden" name="js" value="">
+<input type="hidden" name="_HMaction" value="">
+<input type="hidden" name="page" v

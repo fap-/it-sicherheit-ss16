@@ -1,0 +1,5 @@
+lock"> Block</td>
+<td class="LL">|</td>
+<td id="JunkTD" class="P" nowrap onmouseover="MME(event, Junk);" onmouseout="MME(event, Junk);" onblur="MME(event, Junk);" onclick="MCH(event,Junk)"><img src="http://65.54.244.24/i.p.junkmail.gif" border=0 align=absmiddle hspace=1 alt="Junk Mail"> Junk <img src="http://65.54.244.24/i.p.downarrow.gif" border=0 align=absmiddle hspace=1></td>
+<td class="LL">|</td>
+<td class="P" nowrap onmouseover="MO()" onmouseout="MU()" onclick="G('/cgi-bin/HoTMaiL?FindMSG=1');"><img src="http://65.54.244.24/i

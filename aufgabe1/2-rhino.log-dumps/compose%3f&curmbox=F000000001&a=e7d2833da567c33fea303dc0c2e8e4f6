@@ -1,0 +1,467 @@
+<html>
+<head>
+<script language="JavaScript">
+IsNotBulkEnabled=IStatus=IsPrintEnabled=NewMenu=Junk=PutInFldr=Attach=Tools="";
+_UM = "curmbox=F000000001&a=e7d2833da567c33fea303dc0c2e8e4f6";
+function IfUtf8(C)
+{	var N = (document.charset=="utf-8")?1:0
+if (N == C)	return true		
+var u = k = document.location.href
+if (u.indexOf("utf8=")<=0)                  
+u += "&utf8=9";
+u = u.replace(/(utf8=)\d/ig,"$1"+(N?"1":"0"))
+if (u != k)
+{	window.location.replace(u)
+var w = window.open("","","height=1,width=1,menubar=no,resizable=no,titlebar=no,scrollbars=no,status=no,toolbar=no,menubar=no,location=no");
+w.close()	
+}
+}
+IfUtf8(0)	
+</script>
+<title>MSN Hotmail - New Message</title>
+<link rel="stylesheet" href="/cgi-bin/dasp/EN/hotmail___9080000065.css">
+<script language="JavaScript" src="/cgi-bin/dasp/EN/helppane___9080000001F.js"></script>
+<script language="JavaScript" src="/cgi-bin/dasp/EN/hotmail___90815000014.js"></script>
+</head>
+<body bgcolor=#336699 onLoad="DOL();">
+<a name="top"></a>
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+<tr valign=top>
+<td width=450 style="padding-top:3px;">
+<table border=0 cellpadding=0 cellspacing=0><tr>
+<td nowrap>&#160;&#160;<a href="http://g.msn.com/8HMBEN/7341??PS=8318" class="F">MSN Home</a>&#160;&#160;</td>
+<td><font class="G">|</font></td>
+<td nowrap>&#160;&#160;<a href="http://g.msn.com/8HMBEN/7342??PS=8318" class="F">My MSN</a>&#160;&#160;</td>
+<td><font class="G">|</font></td>
+<td nowrap>&#160;&#160;<font class="F">Hotmail</font>&#160;&#160;</td>
+<td><font class="G">|</font></td>
+<td nowrap>&#160;&#160;<a href="http://g.msn.com/8HMBEN/7345??PS=8318" class="F">Shopping</a>&#160;&#160;</td>	
+<td><font class="G">|</font></td>
+<td nowrap>&#160;&#160;<a href="http://g.msn.com/8HMBEN/7346??PS=8318" class="F">Money</a>&#160;&#160;</td>
+<td><font class="G">|</font></td>
+<td nowrap>&#160;&#160;<a href="http://g.msn.com/8HMBEN/7347??PS=8318" class="F">People & Chat</a>&#160;&#160;</td>
+
+</tr></table>
+</td>
+<td><span style="width:30px;">&nbsp;</span></td>
+<td>
+<a href="http://by17fd.bay17.hotmail.msn.com/cgi-bin/logout?curmbox=F000000001&a=e7d2833da567c33fea303dc0c2e8e4f6&t=1083018147&loru=&id=2&fs=1&cb=_lang%3dEN%26country%3dUS&ct=1083018147">
+<img border=0 src="http://64.4.48.24/crs_918.gif" alt="Sign out of .NET Passport sites" width="66" height="19">
+</a>
+</td>
+<td><span style="width:27px;">&nbsp;</span></td>
+<td nowrap valign=middle>
+<font class="G"><label for="q">Web Search:</label></font>
+</td>
+<td><span style="width:6px;">&nbsp;</span></td>
+<td width=100% nowrap valign=middle>
+<form method="GET" name="websearch" action="http://search.msn.com/results.asp" style="margin-bottom:0px;margin-bottom:0px;">
+<input type="Hidden" name="RS" value="CHECKED">
+<input type="Hidden" name="Form" value="HM">
+<input type="Hidden" name="cp" value="1252">
+<input type="Hidden" name="v" value=1>
+<input type="text" id="q" name="q" size=14 accesskey="S" style="WIDTH:65%">
+<span style="width:3px;"></span>
+<input type="submit" value="Go" size=4>
+</form>
+</td>
+</tr>
+</table>
+<table border=0 cellpadding=0 cellspacing=0 width=100% >
+<tr><td colspan=2><img src="http://64.4.48.24/spacer.gif" height=1 width=779></td></tr>
+<tr>
+<td>
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+<tr> 
+<td rowspan=2 background="http://64.4.48.24/tab.bg.dln.gif">
+<a href="http://g.msn.com/1HM9EN/141??PS=8318" target="_top"><img src="http://64.4.48.24/lgo_msn_118x35.gif" width=118 height=35 border=0 alt="go to MSN"></a>
+</td>
+<td rowspan=2 background="http://64.4.48.24/tab.bg.dln.gif"><font class="D">Hotmail</font></td>
+<td rowspan=2><img src="http://64.4.48.24/tab.slide.hm.li.gif"></td>
+<td colspan=12 height=13 bgcolor=#336699></td>
+</tr>
+<tr>
+<td><img src="http://64.4.48.24/tab.separator.off.gif"></td>
+<td background="http://64.4.48.24/tab.bg.off.gif" nowrap>
+&nbsp;&nbsp;&nbsp;<a href="javascript:G('/cgi-bin/hmhome?');" tabindex=120 class="E">Today</a>&nbsp;&nbsp;&nbsp;
+</td>
+<td><img src="http://64.4.48.24/tab.separator.on.l.gif"></td>
+<td background="http://64.4.48.24/tab.bg.on.gif" nowrap>
+&nbsp;&nbsp;&nbsp;<a href="/cgi-bin/HoTMaiL?curmbox=F000000001&a=e7d2833da567c33fea303dc0c2e8e4f6" tabindex=121 class="E">Mail</a>&nbsp;&nbsp;&nbsp;
+</td>
+<td><img src="http://64.4.48.24/tab.separator.on.r.gif"></td>
+<td background="http://64.4.48.24/tab.bg.off.gif" nowrap>
+&nbsp;&nbsp;&nbsp;<a href="/cgi-bin/dasp/calendarupsell.asp?" tabindex=122  class="E">Calendar</a>&nbsp;&nbsp;&nbsp;
+</td>
+<td><img src="http://64.4.48.24/tab.separator.off.gif"></td>
+<td background="http://64.4.48.24/tab.bg.off.gif" nowrap>
+&nbsp;&nbsp;&nbsp;<a href="javascript:G('/cgi-bin/addresses?');" tabindex=123 class="E">Contacts</a>&nbsp;&nbsp;&nbsp;
+</td>
+<td><img src="http://64.4.48.24/tab.separator.end.gif"></td>
+<td background="http://64.4.48.24/tab.bg.sln.gif" width=100%>&nbsp;</td>
+</tr>
+</table>
+</td>
+<td valign=bottom>
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+<tr>
+<td background="http://64.4.48.24/tab.bg.sln.gif"><img src="http://64.4.48.24/spacer.gif" width=1 height=35></td>
+<td background="http://64.4.48.24/tab.bg.sln.gif" nowrap align=right>
+<a href="/cgi-bin/options?section=mail&subsection=&curmbox=F000000001&a=e7d2833da567c33fea303dc0c2e8e4f6" class="G">Options</a>&nbsp;&nbsp;<font class="G">|</font>&nbsp;&nbsp;<a href="javascript:CPH('PIM_WriteMessage');" class="G">Help</a>&nbsp;&nbsp;&nbsp;
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table border=0 cellpadding=0 cellspacing=0 width="100%">
+<tr bgcolor="#4791C5"><td colspan=3><img src="http://64.4.48.24/spacer.gif" height=1 width=779></td></tr>
+<tr bgcolor="#4791C5"><td style="padding-left:10px;height:20px;border-bottom:1px solid #10659E">
+<table border=0 cellpadding=0 cellspacing=0 width="100%">
+<tr>
+<td width=100% align="left" valign="middle"><font class="G">hugerhinolover@hotmail.com</font></td>
+</tr>
+</table>
+</td>
+<td align=right style="padding-left:10px;height:20px;border-bottom:1px solid #10659E">
+<table border=0 cellpadding=0 cellspacing=0>
+<tr>
+<td align="right" valign="middle">
+<font class="E">New Message</font>
+&nbsp;</td>
+</tr></table></td></tr></table><iframe id="Hfrm" class="NN""></iframe>
+<table border=0 cellpadding=0 cellspacing=0 width=100% class="N" id="HMTB">
+<tr><td colspan=2><img src="http://64.4.48.24/spacer.gif" height=1 width=779></td></tr>
+<tr><td>
+<table border=0 cellpadding=0 cellspacing=0 width=100% class="O">
+<tr>
+<td style="width:8px"><img src="http://64.4.48.24/spacer.gif" height=1 width=8></td>
+<td class="P" nowrap onmouseover="MO()" onmouseout="MU()" onclick="Mail('Send')"><img src="http://64.4.48.24/i.p.send.gif" border=0 align=absmiddle hspace=1 alt="Send"> <a href="#" onclick="Mail('Send');return false;" tabindex=1>Send</a></td>
+<td class="LL">|</td>
+<td class="P" nowrap onmouseover="MO()" onmouseout="MU()" onclick="Mail('Save')"><img src="http://64.4.48.24/i.p.folder.drafts.gif" border=0 align=absmiddle hspace=1 alt="Drafts"> Save Draft</td>
+<td class="LL">|</td>
+<td id="AttachTD" class="P" nowrap onmouseover="MME(event,Attach);" onmouseout="MME(event,Attach);" onblur="MME(event,Attach);" onclick="MCH(event,Attach)"><img src="http://64.4.48.24/i.p.attach.gif" border=0 align=absmiddle hspace=1 alt="Attach"> <a href="#" onclick="MCH(event,Attach);return false;" tabindex=1>Attach</a> <img src="http://64.4.48.24/i.p.downarrow.gif" border=0 align=absmiddle hspace=1></td>
+<td class="LL">|</td>
+<td id="HighTD" class="P" nowrap onmouseover="if (IStatus!='H'){MO()}" onmouseout="if (IStatus!='H'){MU()}" onclick="Mail('High')"><img src="http://64.4.48.24/i.p.importance.h.gif" border=0 align=absmiddle hspace=1 alt="High Importance"></td>
+<td id="LowTD" class="P" nowrap onmouseover="if (IStatus!='L'){MO()}" onmouseout="if (IStatus!='L'){MU()}" onclick="Mail('Low')"><img src="http://64.4.48.24/i.p.importance.l.gif" border=0 align=absmiddle hspace=1 alt="Low Importance"></td>				
+<td class="LL">|</td>
+<td id="ToolsTD" class="P" nowrap onmouseover="MME(event,Tools);" onmouseout="MME(event,Tools);" onblur="MME(event,Tools);" onclick="MCH(event,Tools)"><img src="http://64.4.48.24/i.p.tools.gif" border=0 align=absmiddle hspace=1 alt="Tools"> Tools <img src="http://64.4.48.24/i.p.downarrow.gif" border=0 align=absmiddle hspace=1></td>
+<td class="LL">|</td>
+<td class="P" nowrap onmouseover="MO()" onmouseout="MU()" onclick="Mail('Cancel')"><img src="http://64.4.48.24/i.p.cancel.gif" border=0 align=absmiddle hspace=1 alt="Cancel"> Cancel</td>
+<td width=100%>&nbsp;</td>
+</tr>
+</table>
+</td>
+<td style="CURSOR:auto">
+<table border=0 cellpadding=0 cellspacing=0 width=100% class="O"><tr><td width=100%>&nbsp;</td></tr></table>
+</td>
+</tr>
+<tr><td colspan=2><img src="http://64.4.48.24/spacer.gif" height=1 width=779></td></tr>
+</table>
+<table id="ToolsTable" onclick="MCH(event,Tools,true)" class="U">
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="Mail('SpellChk');">Spell Check</TD></TR>
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="Mail('Dictionary');">Dictionary</TD></TR>
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="Mail('Thesaurus');">Thesaurus</TD></TR>
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="Mail('RTE');">Rich-Text Editor ON</TD></TR>
+</table>
+<script language="javascript" >
+var Tools = new MenuObj("Tools", "ToolsTable", "ToolsTD", "", "T", "P", "Q","Hfrm","");
+</script>
+<table id="AttachTable" onclick="MCH(event,Attach,true)" class="U">
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="Mail('AttachFile');"><img src="http://64.4.48.24/i.p.attachfile.gif" border=0 align=absmiddle hspace=1 alt="Attached File"> <a href="#" onclick="Mail('AttachFile');return false;" tabindex=1 class="J" style="text-decoration:none">File</a></TD></TR>
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="Mail('AttachContact');"><img src="http://64.4.48.24/i.p.cont.individual.gif" border=0 align=absmiddle hspace=1 alt="Contact"> Contact Information</TD></TR>
+<TR><TD class="V"><img src="http://64.4.48.24/spacer.gif" height=1 width=1></TD></TR>
+<TR><TD class="Y" onmouseover="MOD_D()" onmouseout="MUD_D()"><img src="http://64.4.48.24/i.p.delete.d.gif" border=0 align=absmiddle hspace=1 alt="Delete"> Remove Attachments</TD></TR>
+</table>
+<script language="javascript" >
+var Attach = new MenuObj("Attach", "AttachTable", "AttachTD", "", "T", "P", "Q","Hfrm","");
+</script>
+<table border=0 cellpadding=0 cellspacing=0 width=100% bgcolor=#DBEAF5>
+<iframe name="XformFrame" style="position:absolute;visibility:hidden" WIDTH=0 HEIGHT=0></iframe>
+<form name="hiddentext"><input type="hidden" name="sigtext" value=""><input type="hidden" name="replytext" value=""><input type="hidden" name="drafttext" value=""></form>
+<form name="composeform" method="POST" action="http://by17fd.bay17.hotmail.msn.com/cgi-bin/premail/8147">
+<input type="hidden" name="curmbox" value="F000000001">
+<input type="hidden" name="HrsTest" value="">
+
+<input type="hidden" name="_HMaction">
+<input type="hidden" name="FinalDest" value="">
+<input type="hidden" name="subaction">
+<input type="hidden" name="plaintext">	
+<input type="hidden" name="login" value="hugerhinolover">
+<input type="hidden" name="msg" value="">
+<input type="hidden" name="start" value="">
+<input type="hidden" name="len" value="">
+<input type="hidden" name="attfile" value="">
+<input type="hidden" name="eurl" value="">
+<input type="hidden" name="type" value="">
+<input type="hidden" name="src" value="">
+<input type="hidden" name="ref" value="">
+<input type="hidden" name="ru" value="">
+<input type="hidden" name="msghdrid" value="b0c48875e36fa207c82039b1961d5eb0_1083018147">
+<input type="hidden" name="RTEbgcolor" value="" ID="Hidden1">
+<input type="hidden" name="encodedto" value="">
+<input type="hidden" name="encodedcc" value="">
+<input type="hidden" name="encodedbcc" value="">
+<input type="hidden" name="deleteUponSend" value="0">
+<input type="hidden" name="importance" value="">
+<input type="hidden" name="sigflag" value="y">
+<input type="hidden" name="newmail" value="new">
+<tr>
+<td>
+<img src="http://64.4.48.24/spacer.gif" width=580 height=12>
+</td>
+<td bgcolor=#DBEAF5>
+<img src="http://64.4.48.24/spacer.gif" width=180 height=12>
+</td>
+<td rowspan=99 width=90% bgcolor=#DBEAF5>
+<spacer type="horizontal" size="90%">
+</td>
+</tr>
+<tr>
+<td width=582 valign=top style="padding-left:10px">
+<table cellspacing=0 cellpadding=0 border=0 width=580>
+<tr>
+<td nowrap width=40>
+<a href="javascript:InsAdd()">To: </a> 
+</td>
+<td width=530 align=right><input type="text" name="to" value="" onFocus="setIt('to')" size=100 maxlength=1000 style="width:530" tabindex=1 title="To" class="C"></td>
+<td width=10><img src="http://64.4.48.24/i.p.toarrow.gif" height=13 width=8 border=0  name="ToInd"></td>
+</tr><tr>
+<td height=12>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>
+<a href="javascript:InsAdd()">Cc: </a> 
+</td>
+<td align=right><input type="text" name="cc" value="" onFocus="setIt('cc');" size=100 maxlength=1000 style="width:530"  tabindex=2 title="Cc" class="C"></td>
+<td><img src="http://64.4.48.24/spacer.gif" height=13 width=8 border=0  name="CcInd"></td>
+</tr><tr>
+<td height=12>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap>
+<a href="javascript:InsAdd()">Bcc: </a>
+</td>
+<td align=right><input type="text" name="bcc" value="" onFocus="setIt('bcc');" size=100 maxlength=1000 style="width:530" tabindex=3 title="Bcc" class="C"></td>
+<td><img src="http://64.4.48.24/spacer.gif" height=13 width=8 border=0  name="BccInd"></td
+</tr>
+<tr>
+<td height=12>&nbsp;</td>
+</tr>
+<tr>
+<td nowrap><label for="subject">Subject</label>: </b></td>
+<td align=right><input type="text" id="subject" name="subject" value="" size=100 maxlength=80 style="width:530" tabindex=4 class="C"></td>
+<td>&nbsp;</td>
+</tr><tr>
+<td height=12>&nbsp;</td>
+</tr>
+</table>
+<table cellpadding=0 cellspacing=0 border=0 width=580>
+<tr>
+<td align=center>
+<textarea name="body" rows=15 cols=60 wrap="soft" style="font-size:12px;width:580px;" tabindex=7 title="Type Message Text" >
+</textarea>
+</td>
+</tr><tr>
+<td>
+&nbsp;<br>
+<input type="checkbox" name="outgoing" value="on">Copy Message to Sent Folder
+&nbsp;<P>
+</td>
+</tr>
+</table>
+</td>
+<td valign=top width=180 style="padding-left:10px">
+<style>
+.OTab TD {padding:2px;white-space:nowrap;}
+</style>
+<table border=0 cellpadding=0 cellspacing=0 width=170>
+<tr><td colspan=2 bgcolor=#A0C6E5 style="padding:4px"><a class="K" href="javascript:EditFav()">Favorite Contacts</a></td></tr>
+<tr>
+<td colspan=2 bgcolor=#FFFFFF style="padding:4px;border:1px solid #A0C6E5">To select from your <b>Favorite Contacts</b> create Favorites in your <a href="/cgi-bin/addresses">Contacts</a>!</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</form>
+<script language="JavaScript">
+var frm = document.composeform;
+var BccB = document.all.ButtonBcc;
+function Send()
+{
+var bSbmt = true;
+if ( (frm.to.value=="") && (frm.cc.value=="") && (frm.bcc.value=="") )
+{
+Err("150995199");
+frm.to.focus();
+bSbmt = false;
+}
+if (bSbmt)
+{
+frm._HMaction.value="Send";
+frm.submit()
+}
+}
+function Save()
+{
+var bSbmt = true;
+if (bSbmt)
+{
+frm._HMaction.value="Save";
+frm.submit();
+}
+}
+function Attachment(strCmd)
+{
+frm._HMaction.value=strCmd;
+frm.submit();
+}
+HighTrk = true;
+LowTrk = true;
+var IStatus = "";
+function LangTool(strCmd)
+{
+var bSbmt = true;
+if (strCmd=="SpellChk")
+frm.plaintext.value=frm.body.value;
+if (bSbmt)
+{
+frm._HMaction.value=strCmd;
+frm.submit();
+}
+}
+function EncFields()
+{		
+frm.encodedto.value=DE(frm.to.value);		
+frm.encodedcc.value=DE(frm.cc.value);
+frm.encodedbcc.value=DE(frm.bcc.value);
+}
+function TogRTE()
+{
+var bSbmt = true;
+frm._HMaction.value='RTEON';
+if (bSbmt)
+frm.submit();
+}
+function Cancel()
+{
+frm._HMaction.value='Cancel';
+frm.submit();
+}
+function DoSaveMSG(Furl)
+{
+frm.plaintext.value=frm.body.value;
+frm.FinalDest.value=Furl;
+frm._HMaction.value='upsell';
+frm.submit();
+}
+function DOL() {
+SIG();
+frm.body.focus();
+frm.to.focus();		
+frm.sigflag.value = '';
+document.hiddentext.sigtext.value = '';
+}
+function window.document.composeform.to.onkeydown() 
+{
+return SetFocus();
+}
+function window.document.composeform.cc.onkeydown() 
+{
+return SetFocus();
+}
+function window.document.composeform.bcc.onkeydown() 
+{
+return SetFocus();
+}
+function window.document.composeform.subject.onkeydown() 
+{
+return SetFocus();
+}
+function window.document.composeform.outgoing.onkeydown() 
+{
+return SetFocus();
+}		
+function SetFocus() 
+{
+if (window.event.keyCode == "13")
+return false;
+}
+var qF = "to";
+function EditFav()
+{
+var _R = OW('EditFavorites','540','410','','','','no','no','no','no','/cgi-bin/AddressPicker?'+_UM+'&Context=Favorites&_HMaction=Edit','modalIframe');
+if ("undefined" != typeof(_R) )
+{	
+frm._HMaction.value=_R._HMaction;
+EncFields();
+frm.submit();
+}
+}
+var EmailAddres;
+function InsAdd()
+{	
+EmailAddres = new Object();
+EmailAddres.to = frm.to.value;
+EmailAddres.cc = frm.cc.value;
+EmailAddres.bcc = frm.bcc.value;
+var _R = OW('EditFavorites','530','475','','','','no','no','no','no','/cgi-bin/AddressPicker?'+_UM+'&Context=InsertAddress&_HMaction=Edit&qF='+qF,'modal',EmailAddres);
+if ("undefined" != typeof(_R) )
+{
+frm.to.value = _R.to;
+frm.cc.value = _R.cc;
+frm.bcc.value = _R.bcc;
+}
+frm.elements[qF].focus();		
+}
+</script>
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+<tr>
+<td height=24 colspan=2>
+&nbsp;&nbsp;&nbsp;<a href="http://g.msn.com/1HM9EN/141??PS=8318" class="HH">Get the latest updates from MSN</a>			
+</td>
+</tr>
+<tr>
+<td height=24>
+<table border=0 cellpadding=0 cellspacing=0><tr>
+<td nowrap>&#160;&#160;<a href="http://g.msn.com/8HMBEN/7341??PS=8318" class="F">MSN Home</a>&#160;&#160;</td>
+<td><font class="G">|</font></td>
+<td nowrap>&#160;&#160;<a href="http://g.msn.com/8HMBEN/7342??PS=8318" class="F">My MSN</a>&#160;&#160;</td>
+<td><font class="G">|</font></td>
+<td nowrap>&#160;&#160;<font class="F">Hotmail</font>&#160;&#160;</td>
+<td><font class="G">|</font></td>
+<td nowrap>&#160;&#160;<a href="http://g.msn.com/8HMBEN/7344??PS=8318" class="F">Search</a>&#160;&#160;</td>	
+<td><font class="G">|</font></td>
+<td nowrap>&#160;&#160;<a href="http://g.msn.com/8HMBEN/7345??PS=8318" class="F">Shopping</a>&#160;&#160;</td>	
+<td><font class="G">|</font></td>
+<td nowrap>&#160;&#160;<a href="http://g.msn.com/8HMBEN/7346??PS=8318" class="F">Money</a>&#160;&#160;</td>
+<td><font class="G">|</font></td>
+<td nowrap>&#160;&#160;<a href="http://g.msn.com/8HMBEN/7347??PS=8318" class="F">People & Chat</a>&#160;&#160;</td>
+
+</tr></table>
+</td>
+<td nowrap align=right>
+<a href="http://g.msn.com/0nwenus0/A9/23??PS=8318&DI=8318" class="G" target="_NEW">Feedback</a>&nbsp;&nbsp;<font class="G">|</font>&nbsp;&nbsp;
+<a href="javascript:CPH('PIM_WriteMessage');" class="G">Help</a>&nbsp;&nbsp;&nbsp;
+</td>
+</tr>
+<tr>
+<td height=20 style="BORDER-TOP:1px solid #87b3d0" nowrap colspan=2>
+&nbsp;<font class="G">&copy; 2004 Microsoft Corporation. All rights reserved.</font> <a href="http://g.msn.com/1HM9EN/147??PS=8318" target="_top" class="G">TERMS OF USE</a>
+&nbsp;&nbsp;<a href="http://g.msn.com/1HM9ENUS/164??PS=8318" target="_top" class="G">Advertise</a>
+&nbsp;&nbsp;<a href="http://g.msn.com/1HM9EN/146??PS=8318" target="_top" class="G">TRUSTe Approved Privacy Statement</a>
+&nbsp;&nbsp;<a href="http://g.msn.com/1HM9ENUS/163??PS=8318" target="_top" class="G">GetNetWise</a>
+&nbsp;&nbsp;<a href="http://g.msn.com/0nwenus0/A7/24??PS=8318" class="G">Anti-Spam Policy</a>
+</td>
+</tr>
+<tr><td colspan=2><img src="http://64.4.48.24/spacer.gif" height=1 width=779></td></tr>
+</table>
+<IMG SRC="http://h.msn.com/c.gif?RF=&PI=44364&DI=7474&PS=8318" width=1 height=1>
+
+</body>
+</html>
+<!-- H: bay17-f32.bay17.hotmail.com -->
+<!-- V: WIN2K 09.08.01.0012 i -->
+<!-- D: Mar 18 2004 21:10:28-->
+<!-- S: 0-->

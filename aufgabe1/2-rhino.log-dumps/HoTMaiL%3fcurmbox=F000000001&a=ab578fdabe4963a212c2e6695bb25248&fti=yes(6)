@@ -1,0 +1,12 @@
+e="width:6px;">&nbsp;</span></td>
+<td width=100% nowrap valign=middle>
+<form method="GET" name="websearch" action="http://search.msn.com/results.asp" style="margin-bottom:0px;margin-bottom:0px;">
+<input type="Hidden" name="RS" value="CHECKED">
+<input type="Hidden" name="Form" value="HM">
+<input type="Hidden" name="cp" value="1252">
+<input type="Hidden" name="v" value=1>
+<input type="text" id="q" name="q" size=14 accesskey="S" style="WIDTH:65%">
+<span style="width:3px;"></span>
+<input type="submit" value="Go" size=4>
+</form>
+</td>

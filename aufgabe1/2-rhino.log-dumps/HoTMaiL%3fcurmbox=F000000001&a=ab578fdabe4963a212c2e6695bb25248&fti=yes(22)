@@ -1,0 +1,4 @@
+1 alt="Greeting Card"> Greeting Card</TD></TR>
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="G('/cgi-bin/dofolders?Create.x=Create&from=inbox');"><img src="http://65.54.244.24/i.p.folder.gif" border=0 align=absmiddle hspace=1 alt="Folder"> Folder</TD></TR>
+<TR><TD class="V"><img src="http://65.54.244.24/spacer.gif" height=1 width=1></TD></TR>
+<TR><TD class="Y" onmouseover="MOD_D()" onmouseout="MUD_D()" onclick="G('/cgi-bin/dasp/calendarupsell.asp?');"><img src="http://65.54.244.24/i.p.cal.d.gif" border=0 alig

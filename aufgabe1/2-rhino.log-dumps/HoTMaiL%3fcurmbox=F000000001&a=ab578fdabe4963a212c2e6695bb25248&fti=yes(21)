@@ -1,0 +1,4 @@
+</table>
+<table id="NewTable" onclick="MCH(event,NewMenu,true)" class="U">
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="G('/cgi-bin/compose?');"><img src="http://65.54.244.24/i.p.writenew.gif" border=0 align=absmiddle hspace=1 alt="New"> Mail Message</TD></TR>
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="G('http://g.msn.com/8HMBEN/7668??PS=8315');"><img src="http://65.54.244.24/i.p.greetcard.gif" border=0 align=absmiddle hspace=

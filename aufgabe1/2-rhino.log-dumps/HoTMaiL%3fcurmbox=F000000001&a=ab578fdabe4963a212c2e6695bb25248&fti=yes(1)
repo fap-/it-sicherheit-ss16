@@ -1,0 +1,17 @@
+urmbox=F000000001&a=ab578fdabe4963a212c2e6695bb25248";
+function IfUtf8(C)
+{	var N = (document.charset=="utf-8")?1:0
+if (N == C)	return true		
+var u = k = document.location.href
+if (u.indexOf("utf8=")<=0)                  
+u += "&utf8=9";
+u = u.replace(/(utf8=)\d/ig,"$1"+(N?"1":"0"))
+if (u != k)
+{	window.location.replace(u)
+var w = window.open("","","height=1,width=1,menubar=no,resizable=no,titlebar=no,scrollbars=no,status=no,toolbar=no,menubar=no,location=no");
+w.close()	
+}
+}
+IfUtf8(0)	
+</script>
+<title>MSN Hotmail - Inbox</title>

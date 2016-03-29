@@ -1,0 +1,11 @@
+
+var NS4 = (document.layers) ? 1 : 0;
+var strWindow = "LBPopup" + Math.floor(10000*Math.random());
+var strFeatures = "titlebar=0, toolbar=0,scrollbars=0," +
+"location=0,channelmode=0,directories=0,status=0,menubar=0,resizable=0,left=3000,top=3000,";
+if (NS4)
+strFeatures += "width=739,height=319";
+else
+strFeatures += "width=720,height=300";
+var xw = window.open("", strWindow, strFeatures, false);
+xw.document.write('<HTML><HEAD><STYLE>BODY{margin:0px;}<\/STYLE><SCRIPT>window.opener.focus();window.moveTo(0, 0);<\/SCRIPT><TITLE>MSN<\/TITLE><\/HEAD><BODY><script>if(window.name != "MyIFrame"){ window.top.location = "http:\/\/ad.trafficmp.com\/tmpad\/banner\/itrack.asp?rv=3.0&id=1773&nojs=1&rnd=17300?";}<\/script> <\/BODY><\/HTML>');

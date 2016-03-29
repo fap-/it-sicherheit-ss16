@@ -1,0 +1,12 @@
+></td>
+<td rowspan=2><img src="http://65.54.244.24/tab.slide.hm.li.gif"></td>
+<td colspan=12 height=13 bgcolor=#336699></td>
+</tr>
+<tr>
+<td><img src="http://65.54.244.24/tab.separator.off.gif"></td>
+<td background="http://65.54.244.24/tab.bg.off.gif" nowrap>
+&nbsp;&nbsp;&nbsp;<a href="javascript:G('/cgi-bin/hmhome?');" tabindex=120 class="E">Today</a>&nbsp;&nbsp;&nbsp;
+</td>
+<td><img src="http://65.54.244.24/tab.separator.on.l.gif"></td>
+<td background="http://65.54.244.24/tab.bg.on.gif" nowrap>
+&nbsp;&nbsp;&nbsp;<a href="/cgi-bin

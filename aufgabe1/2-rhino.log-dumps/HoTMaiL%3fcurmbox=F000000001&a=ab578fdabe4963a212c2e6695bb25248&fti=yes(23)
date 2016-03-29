@@ -1,0 +1,4 @@
+n=absmiddle hspace=1 alt="Calendar"> Appointment</TD></TR>
+<TR><TD class="Y" onmouseover="MOD_D()" onmouseout="MUD_D()" onclick="G('/cgi-bin/dasp/calendarupsell.asp?');"><img src="http://65.54.244.24/i.p.cal.meet.req.d.gif" border=0 align=absmiddle hspace=1 alt="Meeting Request"> Meeting Request</TD></TR>
+<TR><TD class="Y" onmouseover="MOD_D()" onmouseout="MUD_D()" onclick="G('/cgi-bin/dasp/calendarupsell.asp?');"><img src="http://65.54.244.24/i.p.cal.task.d.gif" border=0 align=absmiddle hspace=1 alt="Task"> Task</TD></TR>
+<TR><TD

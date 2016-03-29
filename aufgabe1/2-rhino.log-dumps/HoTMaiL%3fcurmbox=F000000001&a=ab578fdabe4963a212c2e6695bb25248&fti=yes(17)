@@ -1,0 +1,6 @@
+rrow.gif" border=0 align=absmiddle hspace=1>
+</td>
+<td class="LL">|</td>
+<td class="P" nowrap onmouseover="MO()" onmouseout="MU()" onclick="Subm('delete',0,1)"><img src="http://65.54.244.24/i.p.delete.gif" border=0 align=absmiddle hspace=1 alt="Delete"> <a href="#" onclick="Subm('delete',0,1);return false;" tabindex=1>Delete</a></td>
+<td class="LL">|</td>
+<td class="P" nowrap onmouseover="MO()" onmouseout="MU()" onclick="Subm('blocksender',0,1);"><img src="http://65.54.244.24/i.p.block.gif" border=0 align=absmiddle hspace=1 alt="B

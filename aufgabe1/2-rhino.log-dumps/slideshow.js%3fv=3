@@ -1,0 +1,109 @@
+var frame = null;
+var time = FADE;
+var delay = FADE;
+var transition = false;
+var initialized = false;
+var reverse = false;
+var mainTimer = null;
+var fadeTimer = null;
+
+window.onload = init;
+
+function start() {
+	var ss = document.getElementById('ss');
+	if(ss == null || ss.children == null) {
+		return;
+	}
+	if(ss.children.length == 2 && frame != ss.firstChild) {
+		return;
+	}
+	ss.filters[0].apply();
+	if(frame.style) {
+		frame.style.display = "none";
+	}
+	ss.filters[0].play(duration=time);
+	fadeTimer = window.setTimeout(finish, time * 1000);
+	transition = true;
+}
+
+function finish() {
+	var ss = document.getElementById('ss');
+	if(ss == null || ss.children == null) {
+		return;
+	}
+	transition = false;
+	if(reverse) {
+		frame = frame.previousSibling;
+		if(frame == null || (IS_INTRO != 'no' && frame == ss.firstChild)) {
+			frame = ss.lastChild;
+		}
+		reverse = false;
+	}
+	else {
+		frame = frame.nextSibling;
+		if(frame == null) {
+			frame = ss.firstChild;
+			if(IS_INTRO != 'no') {
+				frame = frame.nextSibling;
+			}
+		}
+	}
+	parseDelay();
+	ss.filters[0].apply();
+	if(frame.style) {
+		frame.style.display = "block";
+	}
+	ss.filters[0].play(duration=time);
+	mainTimer = window.setTimeout(start, time * 1000 + delay);
+	time = FADE;
+}
+
+function pause() {
+	if(!transition) {
+		window.clearTimeout(fadeTimer);
+		window.clearTimeout(mainTimer);
+		mainTimer = window.setTimeout(start, (FADE * 1000 + delay));
+	}
+}
+
+function init() {
+	var ss = document.getElementById('ss');
+	if(ss == null || ss.children == null) {
+		return;
+	}
+	frame = ss.firstChild;
+	parseDelay();
+	ss.onmousemove = pause;
+	mainTimer = window.setTimeout(start, delay);
+}
+
+function next() {
+	if(!transition) {
+		window.clearTimeout(fadeTimer);
+		window.clearTimeout(mainTimer);
+		time = 0;
+		start();
+	}
+}
+
+function prev() {
+	if(!transition) {
+		window.clearTimeout(fadeTimer);
+		window.clearTimeout(mainTimer);
+		reverse = true;
+		time = 0;
+		start();
+	}
+}
+
+function parseDelay() {
+	try {
+		delay = parseInt(frame.delay);
+	}
+	catch(ex) {
+		delay = DELAY;
+	}
+	if(delay < FADE) {
+		delay = DELAY;
+	}
+}

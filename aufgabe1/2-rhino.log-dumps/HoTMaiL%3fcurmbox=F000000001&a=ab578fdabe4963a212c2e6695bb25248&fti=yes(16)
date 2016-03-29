@@ -1,0 +1,2 @@
+="NewTD" class="P" nowrap onmouseover="MME(event, NewMenu);" onmouseout="MME(event, NewMenu);" onblur="MME(event, NewMenu);" onclick="G('/cgi-bin/compose?');"><img src="http://65.54.244.24/i.p.writenew.gif" border=0 align=absmiddle hspace=1 alt="New"> <a href="#" onclick="G('/cgi-bin/compose?');return false;" tabindex=1>New</a></td>
+<td id="NewDdTD" class="P" nowrap onmouseover="MME(event, NewMenu);" onmouseout="MME(event, NewMenu);" onblur="MME(event, NewMenu);" onclick="MCH(event,NewMenu)"><img src="http://65.54.244.24/i.p.downa

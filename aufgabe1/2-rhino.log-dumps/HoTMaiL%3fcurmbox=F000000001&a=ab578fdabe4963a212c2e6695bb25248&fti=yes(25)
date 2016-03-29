@@ -1,0 +1,9 @@
+D></TR>
+</table>
+<script language="javascript" >
+var NewMenu = new MenuObj("NewMenu", "NewTable", "NewTD", "NewDdTD", "T", "P", "Q","Hfrm","");
+</script>
+<table id="FldrTable" onclick="MCH(event,PutInFldr,true)" class="U">
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="PI('MoveTo',0,1,'F000000001');">Inbox</TD></TR>
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="PI('MoveTo',0,1,'F000000002');">Sent Messages</TD></TR>
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="PI('M

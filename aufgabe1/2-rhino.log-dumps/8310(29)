@@ -1,0 +1,18 @@
+unction doThisTD(sm_cb)
+{
+if (sm_cb.parentElement.parentElement.className=='H')
+sm_cb.parentElement.style.backgroundColor = '#C1CDD8';
+else
+sm_cb.parentElement.style.backgroundColor = '';
+}
+</script>
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+<tr>
+<td height=24 colspan=2>
+&nbsp;&nbsp;&nbsp;<a href="http://g.msn.com/1HM9EN/141??PS=9621" class="HH">Get the latest updates from MSN</a>			
+</td>
+</tr>
+<tr>
+<td height=24>
+<table border=0 cellpadding=0 cellspacing=0><tr>
+<td nowrap>&#160;&#160;<a href="http://g.msn.com/8HMBE

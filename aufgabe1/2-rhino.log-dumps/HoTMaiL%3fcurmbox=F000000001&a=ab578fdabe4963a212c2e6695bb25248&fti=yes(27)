@@ -1,0 +1,10 @@
+kTable" onclick="MCH(event,Junk,true)" class="U">
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="Subm('report',0,1);">Report Junk E-Mail</TD></TR>
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="Subm('report_n_block',0,1);">Report and Block Sender</TD></TR>
+</table>
+<script language="javascript" >
+var Junk = new MenuObj("Junk", "JunkTable", "JunkTD", "", "T", "P", "Q","Hfrm","");
+</script>
+<script language="javascript">
+function HM(l){document.location = "/cgi-bin/HoTMaiL?"+l+"&"+_UM}
+funct
