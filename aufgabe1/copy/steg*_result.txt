@@ -1,0 +1,11 @@
+stegbreak -t o -q ./pic9.jpg
+Loaded 1 files...
+./pic9.jpg : outguess[v0.13b](laureate's)[data][.2......;.\]....]
+Processed 1 files, found 1 embeddings.
+Time: 0 seconds: Cracks: 57283,      inf c/s
+
+
+pic9.jpg : outguess(old)(***)
+
+f0038436.jpg : f5(***)
+
