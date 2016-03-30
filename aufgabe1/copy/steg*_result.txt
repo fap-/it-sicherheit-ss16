@@ -9,3 +9,17 @@ pic9.jpg : outguess(old)(***)
 
 f0038436.jpg : f5(***)
 
+
+f5.jar source: https://code.google.com/archive/p/f5-steganography/
+
+java -jar f5.jar x -e out.txt ~/repos/it-sicherheit-ss16/aufgabe1/1-usb.dd-dumps/recup_dir.2/f0038436.jpg
+Huffman decoding starts
+Permutation starts
+18048000 indices shuffled
+Extraction starts
+Length of embedded file: 7557416 bytes
+(1, 7, 3) code used
+Incomplete file: only 119341 of 7557416 bytes extracted
+
+-> out.txt broken
+
