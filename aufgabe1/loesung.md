@@ -1,5 +1,4 @@
 ## it-sec - Aufgabe 1
-Loesung von **fap & elx**
 
 ### Wer gab den Verdaechtigen Zugriff?
 Jeremy hat ihn einen gnome account erzeugt.
@@ -7,6 +6,7 @@ Jeremy hat ihn einen gnome account erzeugt.
 ### Welche Art von Zugriffen hatte der Verdaechtige?
 
 ### Wie lauten die Zugangsdaten des Verdaechtigen?
+* FTP - gnome:gnome123
 
 ### Wie tauschte er sich mit Seinesgleichen aus?
 
