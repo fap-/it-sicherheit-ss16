@@ -22,11 +22,18 @@ vim /var/www/html/index.html
 * https://wiki.ubuntuusers.de/CA/
 * http://manual.seafile.com/deploy/https_with_apache.html
 
-```
+```bash
 openssl genrsa -out privkey.pem 2048
 openssl req -new -x509 -key privkey.pem -out cacert.pem -days $((4 * 7))
 ```
 
-## 2d
+## 2d - Apache absichern
 
-## 2e
+```bash
+# SSL auf apache aktivieren
+a2enmod ssl
+service apache2 restart
+
+
+ 
+```
