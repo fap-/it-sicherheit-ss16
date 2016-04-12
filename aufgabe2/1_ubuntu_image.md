@@ -1,7 +1,5 @@
 # Erzeugung und Zugriff auf ubuntu Image
 
-VPN Zugriff einrichten:
-
 ### OpenVpn
   * Installtion von openvpn
     * Arch Linux: `sudo pacman -S openvpn`
