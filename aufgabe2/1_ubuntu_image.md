@@ -16,10 +16,10 @@ VPN Zugriff einrichten:
     * In zukunft muss nur noch dieser schritt vorgenommen werden, damit man auf das vpn kommt.
     * Ausserdem muss darauf geachtet werden, dass solange die anwendung laeuft, du im VPN bist. Also nicht schliessen!
 * Generiere ssh keys unter linux:
-  * ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+  * `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
   * unter ~/.ssh sind nun zwei keys zu finden. dein privater schluessel und ein oeffentlicher.
-    * private: ~/.ssh/id_rsa
-    * public: ~/.ssh/id_rsa.pub
+    * private: `~/.ssh/id_rsa`
+    * public: `~/.ssh/id_rsa.pub`
 * Image Creation
   * Gehe https://owncloud.informatik.haw-hamburg.de/ und melde dich an.
   * Folgende Schritte sind erforderlich, falls diese noch niemals vorgenommen wurden:
