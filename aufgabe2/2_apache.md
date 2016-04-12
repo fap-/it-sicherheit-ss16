@@ -24,7 +24,7 @@ vim /var/www/html/index.html
 
 ```bash
 openssl genrsa -out privkey.pem 2048
-openssl req -new -x509 -key privkey.pem -out cacert.pem -days $((4 * 7))
+openssl req -new -x509 -key privkey.pem -out apache.pem -days $((4 * 7))
 ```
 
 ## 2d - Apache absichern
