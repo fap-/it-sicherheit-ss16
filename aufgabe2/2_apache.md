@@ -4,7 +4,7 @@ Vorgaenger: [1_ubuntu_image.md](1_ubuntu_image.md)
 * Ans VPN verbunden
 * Ueber ssh aufm Container
 
-## 2b
+## 2b - Installation von Apache
 ```bash
 # installation von apache
 apt-get install apache2
@@ -17,7 +17,12 @@ service apache2 start
 vim /var/www/html/index.html
 ```
 
-## 2c
+## 2c - Zertifikate generieren
+
+* http://manual.seafile.com/deploy/https_with_apache.html
+
+```
+```
 
 ## 2d
 
