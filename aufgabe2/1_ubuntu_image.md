@@ -2,7 +2,7 @@
 
 VPN Zugriff einrichten:
 
-* OpenVpn
+### OpenVpn
   * Installtion von openvpn
     * Arch Linux: `sudo pacman -S openvpn`
     * Debian like: `sudo apt-get install openvpn`
@@ -15,7 +15,8 @@ VPN Zugriff einrichten:
     * sudo openvpn --config your.config
     * In zukunft muss nur noch dieser schritt vorgenommen werden, damit man auf das vpn kommt.
     * Ausserdem muss darauf geachtet werden, dass solange die anwendung laeuft, du im VPN bist. Also nicht schliessen!
-* Generiere ssh keys unter linux:
+
+### Generiere ssh keys unter linux:
   * `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
   * unter ~/.ssh sind nun zwei keys zu finden. dein privater schluessel und ein oeffentlicher.
     * private: `~/.ssh/id_rsa`
@@ -34,7 +35,8 @@ VPN Zugriff einrichten:
     * Es koennen mehrere public keys, von mehreren personen aufgenommen werden. Ein public key pro newline.
   * Gehe nun wieder auf https://141.22.34.16 und klicke bei `buildables` auf `build`.
   * Dein docker container ist nun gestartet worden und du kannst dich per ssh einwaehlen.
-* SSH 
+
+### SSH
   * Es muessen die `Image Creation` und die `OpenVpn` abgeschlossen sein.
   * Unter https://141.22.34.16 kannst du die IP des docker containers herausfinden.
   * Du verbindest dich auf den container per `ssh root@<ip-des-containers>`.
