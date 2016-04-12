@@ -21,7 +21,8 @@
   * unter ~/.ssh sind nun zwei keys zu finden. dein privater schluessel und ein oeffentlicher.
     * private: `~/.ssh/id_rsa`
     * public: `~/.ssh/id_rsa.pub`
-* Image Creation
+    
+### Image Creation
   * Gehe https://owncloud.informatik.haw-hamburg.de/ und melde dich an.
   * Folgende Schritte sind erforderlich, falls diese noch niemals vorgenommen wurden:
     * Erstelle einen ordner namens: `VSP_<Deine A-Kennung>`
