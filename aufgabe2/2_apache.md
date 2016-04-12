@@ -29,11 +29,14 @@ openssl req -new -x509 -key privkey.pem -out apache.pem -days $((4 * 7))
 
 ## 2d - Apache absichern
 
+* [000-default.conf](000-default.conf)
+
 ```bash
 # SSL auf apache aktivieren
 a2enmod ssl
 service apache2 restart
 
-
+# Bearbeite die virtuellen hosts. Es muessen am ende zwei vorhanden sein.
+vim /etc/apache2/sites-enabled/000-default.conf
  
 ```
