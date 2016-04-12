@@ -16,3 +16,9 @@ service apache2 start
 # aendern der index.html
 vim /var/www/html/index.html
 ```
+
+## 2c
+
+## 2d
+
+## 2e
