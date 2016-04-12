@@ -1,6 +1,6 @@
 # Erzeugung und Zugriff auf ubuntu Image
 
-## 2a
+## 2a - Zugang zum Image
 
 ### OpenVpn
   * Installtion von openvpn
