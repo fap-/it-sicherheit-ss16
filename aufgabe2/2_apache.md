@@ -1,10 +1,10 @@
-# Installation von apache
+# Apache
 
 ### Precondition
-* VPN steht
-* SSH Zugriff auf das ubuntu image in der docker Umgebung
+* Ans VPN verbunden
+* Ueber ssh aufm Container
 
-### 2b
+## 2b
 ```bash
 # installation von apache
 apt-get install apache2
