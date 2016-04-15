@@ -39,7 +39,7 @@ openssl x509 -req -in sub_request.csr -CA root.crt -CAkey root.key -CAcreateseri
 # apache cert erzeugen
 openssl genrsa -out apache_privkey.pem 2048
 openssl req -new -key device.key -out device.csr
-openssl x509 -req -in device.csr -CA rootCA.pem -CAkey rootCA.key -CAcreateserial -out device.crt -days 500 -sha256
+openssl x509 -req -in device.csr -CA rootCA.pem -CAkey rootCA.key -CAcreateserial -out device.crt -days $((4*7)) -sha256
 ```
 
 ## 2d - Apache absichern
