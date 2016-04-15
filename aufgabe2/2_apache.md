@@ -31,15 +31,14 @@ openssl genrsa -out root.key 2048
 openssl req -new -x509 -key root.key -out root.crt -days 10000
 
 # sub ca-cert erzeugen
-openssl genrsa -out sub_private.key 2048
-openssl req -new -key sub_private.key -out sub_request.csr
-openssl x509 -req -in sub_request.csr -CA root.crt -CAkey root.key -CAcreateserial -out sub.crt -days $((4*7)) -sha256
-
+openssl genrsa -out sub.key 2048
+openssl req -new -key sub.key -out sub.csr
+openssl x509 -req -in sub.csr -CA root.crt -CAkey root.key -CAcreateserial -out sub.crt -days $((4*7)) -sha256
 
 # apache cert erzeugen
-openssl genrsa -out apache_privkey.pem 2048
-openssl req -new -key device.key -out device.csr
-openssl x509 -req -in device.csr -CA rootCA.pem -CAkey rootCA.key -CAcreateserial -out device.crt -days $((4*7)) -sha256
+openssl genrsa -out apache.key 2048
+openssl req -new -key apache.key -out apache.csr
+openssl x509 -req -in apache.csr -CA sub.crt -CAkey sub.key -CAcreateserial -out apache.crt -days $((4*7)) -sha256
 ```
 
 ## 2d - Apache absichern
