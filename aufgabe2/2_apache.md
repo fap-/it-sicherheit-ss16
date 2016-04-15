@@ -22,6 +22,7 @@ vim /var/www/html/index.html
 * https://wiki.ubuntuusers.de/CA/
 * http://manual.seafile.com/deploy/https_with_apache.html
 * https://thomas-leister.de/internet/eine-eigene-openssl-ca-erstellen-und-zertifikate-ausstellen/
+* https://datacenteroverlords.com/2012/03/01/creating-your-own-ssl-certificate-authority/
 
 ```bash
 openssl genrsa -out privkey.pem 2048
