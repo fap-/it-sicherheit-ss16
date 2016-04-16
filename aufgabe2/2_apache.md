@@ -19,6 +19,10 @@ vim /var/www/html/index.html
 
 ## 2c - Zertifikate generieren
 
+![asdf](./pki.png)
+
+**Sources:**
+
 * https://wiki.ubuntuusers.de/CA/
 * http://manual.seafile.com/deploy/https_with_apache.html
 * https://thomas-leister.de/internet/eine-eigene-openssl-ca-erstellen-und-zertifikate-ausstellen/
