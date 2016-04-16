@@ -30,6 +30,7 @@ vim /var/www/html/index.html
 openssl genrsa -out root.key 2048
 openssl req -new -x509 -key root.key -out root.crt -days 10000
 
+
 # sub ca-cert erzeugen
 openssl genrsa -out sub.key 2048
 openssl req -new -key sub.key -out sub.csr
