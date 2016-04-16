@@ -19,6 +19,10 @@ vim /var/www/html/index.html
 
 ## 2c - Zertifikate generieren
 
+![asdf](./pki.png)
+
+**Sources:**
+
 * https://wiki.ubuntuusers.de/CA/
 * http://manual.seafile.com/deploy/https_with_apache.html
 * https://thomas-leister.de/internet/eine-eigene-openssl-ca-erstellen-und-zertifikate-ausstellen/
@@ -29,6 +33,7 @@ vim /var/www/html/index.html
 # ca-cert erzeugen
 openssl genrsa -out root.key 2048
 openssl req -new -x509 -key root.key -out root.crt -days 10000
+
 
 # sub ca-cert erzeugen
 openssl genrsa -out sub.key 2048
