@@ -28,6 +28,8 @@ vim /var/www/html/index.html
 * https://thomas-leister.de/internet/eine-eigene-openssl-ca-erstellen-und-zertifikate-ausstellen/
 * https://datacenteroverlords.com/2012/03/01/creating-your-own-ssl-certificate-authority/
 * https://blog.didierstevens.com/2008/12/30/howto-make-your-own-cert-with-openssl/
+* Wtf - finaly found dat solution. Fucking use this links:
+  * http://pki-tutorial.readthedocs.org/en/latest/advanced/ 
 
 ```bash
 # ca-cert erzeugen
