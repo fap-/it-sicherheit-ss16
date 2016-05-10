@@ -1,4 +1,4 @@
-<p id="notice"><%= notice %></p>
+<p id="notice"><%= notice.join("</br>").html_safe if notice %></p>
 
 <p>
   <strong>Email:</strong>

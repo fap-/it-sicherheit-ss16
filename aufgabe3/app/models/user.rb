@@ -14,7 +14,10 @@ class User < ActiveRecord::Base
                     format: { with: VALID_EMAIL_REGEX },
                     uniqueness: { case_sensitive: false }
   has_secure_password
-  validates :password, presence: true, length: { minimum: 6 }
+  validates :password, presence: true, 
+                       length: { minimum: 6 },
+                       if: :password
+                  
 
   def start_activation
     update_attribute(:activation_started,    Time.zone.now)

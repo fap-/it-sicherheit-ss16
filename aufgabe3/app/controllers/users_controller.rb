@@ -48,9 +48,15 @@ class UsersController < ApplicationController
   # PATCH/PUT /users/1.json
   def update
     respond_to do |format|
-      if @user.update(user_params)
-        start_email_verification if @user.email_changed?
-        format.html { redirect_to @user, notice: 'User was successfully updated.' }
+      user_dup = delete_password_if_blank(user_params)
+      if @user.update_attributes(user_dup)
+        msgs = []
+        msgs << 'User was successfully updated.'
+        if @user.email_changed?
+          start_email_verification 
+          msgs << 'Check up your new email.'
+        end
+        format.html { redirect_to @user, notice: msgs }
         format.json { render :show, status: :ok, location: @user }
       else
         format.html { render :edit }
@@ -70,6 +76,15 @@ class UsersController < ApplicationController
   end
 
   private
+    def delete_password_if_blank(user_params)
+      user_dup = user_params.dup
+      if user_params[:password].empty? && user_params[:password_confirmation].empty?
+        user_dup.delete(:password) 
+        user_dup.delete(:password_confirmation) 
+      end
+      user_dup
+    end
+
     # Use callbacks to share common setup or constraints between actions.
     def set_user
       @user = User.find(params[:id])
