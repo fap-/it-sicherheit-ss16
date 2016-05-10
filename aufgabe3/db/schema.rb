@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160510065733) do
+ActiveRecord::Schema.define(version: 20160510144630) do
 
   create_table "users", force: :cascade do |t|
     t.string   "email"
@@ -23,6 +23,8 @@ ActiveRecord::Schema.define(version: 20160510065733) do
     t.boolean  "activated",          default: false
     t.datetime "activation_started"
     t.datetime "activated_at"
+    t.string   "reset_digest"
+    t.datetime "reset_started"
   end
 
 end

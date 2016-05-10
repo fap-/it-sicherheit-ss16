@@ -1,7 +1,7 @@
 class User < ActiveRecord::Base
 
   before_create :create_activation_digest
-  attr_accessor :activation_token
+  attr_accessor :activation_token, :reset_token
   after_initialize :set_default_is_admin
 	before_save { 
     self.email = email.downcase 
@@ -30,6 +30,10 @@ class User < ActiveRecord::Base
 		end
   end
 
+  def password_reset_expired?
+    reset_started < 30.minutes.ago
+  end
+
   def authenticated?(attribute, token)
     digest = send("#{attribute}_digest")
     return false if digest.nil?
@@ -45,6 +49,12 @@ class User < ActiveRecord::Base
   # Returns a random token.
   def self.new_token
     SecureRandom.urlsafe_base64
+  end
+
+  def create_reset_digest
+    self.reset_token = User.new_token
+    update_columns(reset_digest:  User.digest(reset_token),
+                   reset_started: Time.zone.now)
   end
 
  private
