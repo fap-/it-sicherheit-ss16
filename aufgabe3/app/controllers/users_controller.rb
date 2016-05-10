@@ -1,5 +1,8 @@
 class UsersController < ApplicationController
+  include SessionsHelper
   before_action :set_user, only: [:show, :edit, :update, :destroy]
+  before_action :check_admin_only_permission, only: [:index, :new, :create, :destroy]
+  before_action :check_permission, only: [:show, :edit, :update]
 
   # GET /users
   # GET /users.json
@@ -26,11 +29,13 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
 
-    UserMailer.account_activation(@user).deliver_now
     respond_to do |format|
       if @user.save
+        @user.start_activation
+        UserMailer.account_activation(@user).deliver_now
         format.html { redirect_to @user, notice: 'User was successfully created.' }
         format.json { render :show, status: :created, location: @user }
+
       else
         format.html { render :new }
         format.json { render json: @user.errors, status: :unprocessable_entity }
@@ -70,7 +75,22 @@ class UsersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def user_params
-      params.require(:user).permit(:email, :password, :is_admin)
+      permitted_params = [:email, :password, :password_confirmation]
+      permitted_params << :is_admin if current_user.is_admin? 
+      params.require(:user).permit(*permitted_params)
     end
 
+    def check_admin_only_permission
+      if !logged_in? || !current_user.is_admin
+        redirect_to login_path        
+      end
+    end
+
+    # ensures
+    #   - current_user is logged in
+    #   - current_user is editing himself or is_admin
+    def check_permission
+      redirect_to login_path unless logged_in?
+      redirect_to login_path unless current_user.is_admin || @user.id == current_user.id 
+    end
 end

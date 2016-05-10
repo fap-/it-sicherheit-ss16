@@ -15,5 +15,16 @@
   <%= @user.is_admin %>
 </p>
 
-<%= link_to 'Edit', edit_user_path(@user) %> |
-<%= link_to 'Back', users_path %>
+<p>
+  <strong>Is activated:</strong>
+  <%= @user.activated %>
+</p>
+
+<p>
+  <strong>Activated At:</strong>
+  <%= @user.activated_at %>
+</p>
+<%= link_to 'Edit', edit_user_path(@user) %>
+<% if current_user.is_admin? %>
+  <%= link_to 'Back', users_path %>
+<% end %>

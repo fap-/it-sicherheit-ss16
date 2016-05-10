@@ -1,6 +1,12 @@
 <% provide(:title, "Log in") %>
 <h1>Log in</h1>
 
+<p>
+  <% flash.each do |key, value| %>
+    <%= content_tag :div, value, class: "flash #{key}" %>
+  <% end %>
+</p>
+
 <% if ! logged_in? %>
   <div class="row">
     <div class="col-md-6 col-md-offset-3">
