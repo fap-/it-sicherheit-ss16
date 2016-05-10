@@ -21,4 +21,10 @@ class UserMailer < ApplicationMailer
 
     mail to: @user.email, subject: "Aufgabe3 - Password reset"
   end
+
+  def email_change(user)
+    @user = user
+
+    mail to: @user.email_to_verify, subject: "Aufgabe3 - Email Change"
+  end
 end

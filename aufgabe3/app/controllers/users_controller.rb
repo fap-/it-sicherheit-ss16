@@ -43,11 +43,13 @@ class UsersController < ApplicationController
     end
   end
 
+
   # PATCH/PUT /users/1
   # PATCH/PUT /users/1.json
   def update
     respond_to do |format|
       if @user.update(user_params)
+        start_email_verification if @user.email_changed?
         format.html { redirect_to @user, notice: 'User was successfully updated.' }
         format.json { render :show, status: :ok, location: @user }
       else
@@ -75,7 +77,7 @@ class UsersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def user_params
-      permitted_params = [:email, :password, :password_confirmation]
+      permitted_params = [:email, :password, :password_confirmation, :email_to_verify]
       permitted_params << :is_admin if current_user.is_admin? 
       params.require(:user).permit(*permitted_params)
     end
@@ -92,5 +94,10 @@ class UsersController < ApplicationController
     def check_permission
       redirect_to login_path unless logged_in?
       redirect_to login_path unless current_user.is_admin || @user.id == current_user.id 
+    end
+    
+    def start_email_verification
+      @user.start_email_change
+      UserMailer.email_change(@user).deliver_now
     end
 end
