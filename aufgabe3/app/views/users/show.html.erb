@@ -1,0 +1,30 @@
+<p id="notice"><%= notice.join("</br>").html_safe if notice %></p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @user.email %>
+</p>
+
+<p>
+  <strong>Password digest:</strong>
+  <%= @user.password_digest %>
+</p>
+
+<p>
+  <strong>Is admin:</strong>
+  <%= @user.is_admin %>
+</p>
+
+<p>
+  <strong>Is activated:</strong>
+  <%= @user.activated %>
+</p>
+
+<p>
+  <strong>Activated At:</strong>
+  <%= @user.activated_at %>
+</p>
+<%= link_to 'Edit', edit_user_path(@user) %>
+<% if current_user.is_admin? %>
+  <%= link_to 'Back', users_path %>
+<% end %>
