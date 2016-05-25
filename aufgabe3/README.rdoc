@@ -1,4 +1,7 @@
-## 
+# Setup
+* create secret key with "bundle exec rake secret" and set it in /config/secrets.yml
+
+##
 
 * public key in `authorized_keys`
 * `ssh root@localhost -p 22`
