@@ -6,7 +6,7 @@ class User < ActiveRecord::Base
   after_initialize :set_default_is_admin
 	before_save { 
     self.email = email.downcase 
-    self.email_to_verify = email_to_verify.downcase
+    self.email_to_verify = email_to_verify.downcase if email_to_verify
   }
 
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i

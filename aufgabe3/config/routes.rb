@@ -8,7 +8,10 @@ Rails.application.routes.draw do
   post    'login'     =>  'sessions#create'
   delete  'logout'    =>  'sessions#destroy'
 
-  resources :users
+  resources :users #, except: [:delete]
+  # get     'users/delete/:id' =>  'users#destroy', as: "user_delete"
+  
+
   resources :account_activations, only: [:edit]
   resources :password_resets, only: [:new, :edit, :create, :update]
   resources :email_changes, only: [:edit]

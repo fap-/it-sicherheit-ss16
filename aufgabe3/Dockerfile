@@ -59,7 +59,8 @@ WORKDIR $APP_HOME
 ENV RAILS_ENV production
 RUN gem install bundler
 COPY Gemfile* $APP_HOME/
-RUN bundle install --without development test --with production
+#RUN bundle install --without development test --with production
+RUN bundle install
 
 # Upload and load source
 COPY . $APP_HOME
