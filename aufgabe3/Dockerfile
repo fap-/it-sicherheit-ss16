@@ -34,11 +34,16 @@ RUN apt-get update && apt-get install -y libapache2-mod-passenger
 # enable apache config
 COPY ./config/apache/rails.conf /etc/apache2/sites-available/
 RUN a2enmod passenger
+RUN a2enmod ssl
 RUN a2dissite 000-default
 RUN a2ensite rails
 
 ENV HOME /root
 WORKDIR $HOME
+
+# copy ssl files on container
+COPY ./certs/ /certs/
+
 # install ruby 2.3.1
 RUN wget http://ftp.ruby-lang.org/pub/ruby/2.3/ruby-2.3.1.tar.gz
 RUN tar -xzvf ruby-2.3.1.tar.gz
@@ -68,7 +73,7 @@ RUN mkdir /var/run/sshd
 COPY authorized_keys /root/.ssh/authorized_keys
 
 # give access to cache folder
-RUN mkdir /app/tmp
+# RUN mkdir /app/tmp
 RUN chmod -R 777 /app/tmp
 
 RUN chmod +x start.sh
