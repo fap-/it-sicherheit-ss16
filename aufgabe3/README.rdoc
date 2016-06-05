@@ -1,5 +1,6 @@
 # Setup
 * create secret key with "bundle exec rake secret" and set it in /config/secrets.yml
+* set smtp logins in config/environments/
 
 ##
 
