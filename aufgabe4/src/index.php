@@ -38,4 +38,6 @@
     echo $key . ":" . $value;
     br();
   }
+  br();
+  print(file_get_contents('/etc/apache2/sites-available/000-default.conf'));
 ?>
