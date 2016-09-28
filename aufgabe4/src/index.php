@@ -31,11 +31,18 @@
 
 
   
-	print("Has valid certificate: " . toString(hasValidCert()));
-  br();
-  br();
-  foreach ($_SERVER as $key => $value) {
-    echo $key . ":" . $value;
+  print("Has valid certificate: " . toString(hasValidCert()));
+  if (hasValidCert()) {
     br();
+    print("Hallo " . $_SERVER['SSL_CLIENT_S_DN_CN'] . "!");
   }
+  br();
+  br();
+  echo "<ul>";
+  foreach ($_SERVER as $key => $value) {
+    echo "<li>";
+    echo $key . ":" . $value;
+    echo "</li>";
+  }
+  echo "</ul>";
 ?>
